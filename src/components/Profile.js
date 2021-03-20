@@ -9,6 +9,7 @@ const Profile = ({ name, tag, location, avatar, stats }) => (
         src="https://www.flaticon.com/svg/static/icons/svg/3135/3135715.svg"
         alt="Аватар пользователя"
         class="avatar"
+        // width="100"
       />
       <p class="name">Petra Marica</p>
       <p class="tag">@pmarica</p>
