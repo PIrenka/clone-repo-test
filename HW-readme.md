@@ -14,3 +14,5 @@
 <li> Достаточно базовой стилизации приложения, в первую очередь оно должно работать, а уже потом быть красивое.</li>
 <li>Выделяй 20% времени на CSS и 80% на JS.</li>
 </ul>
+
+https://github.com/goitacademy/react-homework/tree/master/homework-01
