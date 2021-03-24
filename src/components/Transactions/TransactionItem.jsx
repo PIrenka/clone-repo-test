@@ -1,6 +1,6 @@
 import React from "react";
 
-const TransactionItem = (item) => (<tr>
+const TransactionItem = ({item}) => (<tr>
             <td>{item.type}</td>
             <td>{item.amount}</td>
             <td>{item.currency}</td>
