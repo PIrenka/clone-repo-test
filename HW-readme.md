@@ -16,3 +16,8 @@
 </ul>
 
 https://github.com/goitacademy/react-homework/tree/master/homework-01
+
+https://github.com/goitacademy/react-homework/tree/master/homework-01/social-profile
+https://github.com/goitacademy/react-homework/tree/master/homework-01/statistics
+https://github.com/goitacademy/react-homework/tree/master/homework-01/friend-list
+https://github.com/goitacademy/react-homework/blob/master/homework-01/transaction-history
