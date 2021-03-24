@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import defaultImage from "./default.jpg"
 
 const Profile = ({ name, tag, location, avatar, stats }) => (
   <div class="profile">
@@ -9,7 +8,6 @@ const Profile = ({ name, tag, location, avatar, stats }) => (
         src={avatar}
         alt="Аватар пользователя"
         class="avatar"
-        // width="100"
       />
       <p class="name">{name}</p>
       <p class="tag">@{tag}</p>
