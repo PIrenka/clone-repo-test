@@ -1,20 +1,24 @@
-import React from "react";
+import React from 'react';
 import TransactionItem from './TransactionItem';
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
-const TransactionHistory = ({items}) => (<table class="transaction-history">
+const TransactionHistory = ({ items }) => (
+  <table class="transaction-history">
     <thead>
-        <tr>
-            <th>Type</th>
-            <th>Amount</th>
-            <th>Currency</th>
-        </tr>
+      <tr>
+        <th>Type</th>
+        <th>Amount</th>
+        <th>Currency</th>
+      </tr>
     </thead>
 
     <tbody>
-        {items.map((item) => <TransactionItem key={item.id} item={item}/>)}
-      </tbody>
-</table>);
+      {items.map(item => (
+        <TransactionItem key={item.id} item={item} />
+      ))}
+    </tbody>
+  </table>
+);
 
 TransactionHistory.propTypes = {
   items: PropTypes.arrayOf(PropTypes.object),

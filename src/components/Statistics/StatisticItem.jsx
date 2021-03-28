@@ -1,9 +1,18 @@
-import React from "react";
+import React from 'react';
+
+import Styles from './statisticItem.module.css';
+import randomBgrColor from './getRandomBgrColor';
 
 const StatisticItem = ({ stat }) => (
-  <li class="item">
-    <span class="label">{stat.label}</span>
-    <span class="percentage">{stat.percentage}%</span>
+  <li
+    className={Styles.item}
+    key={randomBgrColor}
+    style={{
+      backgroundColor: randomBgrColor,
+    }}
+  >
+    <span className={Styles.label}>{stat.label}</span>
+    <span className={Styles.percentage}>{stat.percentage}%</span>
   </li>
 );
 export default StatisticItem;

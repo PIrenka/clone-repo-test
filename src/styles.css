@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  background-color: fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* .container {
+  background-color: aqua;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0px auto;
+} */

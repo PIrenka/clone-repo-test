@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Profile from './Profile/Profile';
+import Profile from './Profile';
 import Statistics from './Statistics';
 import FriendList from './FriendsList';
 import TransactionHistory from './Transactions';
@@ -9,6 +9,8 @@ import user from '../data/user.json';
 import statisticalData from '../data/statistical-data.json';
 import friends from '../data/friends.json';
 import transactions from '../data/transactions.json';
+
+import '../styles.css';
 
 const App = () => {
   return (
