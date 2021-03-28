@@ -1,0 +1,29 @@
+table {
+  border-collapse: separate;
+  border: 2px solid saddlebrown;
+  border-radius: 4px;
+  box-shadow: 7px 10px 7px -5px #00b1ff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.transactionHistory {
+  text-align: center;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+}
+.tableTitles {
+  background-color: royalblue;
+}
+.tableTitle {
+  padding: 10px 15px;
+}
+
+.transaction:nth-child(odd) {
+  background-color: sandybrown;
+}
+
+.transactionText {
+  padding: 15px 40px;
+}
