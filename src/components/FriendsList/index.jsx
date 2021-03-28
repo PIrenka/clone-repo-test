@@ -1,9 +1,14 @@
-import React from "react";
-import FriendListItem from "./FriendListItem"
-import PropTypes from "prop-types";
+import React from 'react';
+import FriendListItem from './FriendListItem';
+import PropTypes from 'prop-types';
 
-const FriendList = ({ friends }) =>(
-    <ul class="friend-list" >{friends.map((friend) => <FriendListItem key={friend.id} friend={friend}/>)}</ul>);
+const FriendList = ({ friends }) => (
+  <ul class="friend-list">
+    {friends.map(friend => (
+      <FriendListItem key={friend.id} friend={friend} />
+    ))}
+  </ul>
+);
 
 // FriendList.defaultProps = {
 //     friend: PropTypes.shape({
@@ -11,6 +16,7 @@ const FriendList = ({ friends }) =>(
 //     })};
 
 FriendList.propTypes = {
+  friends: PropTypes.arrayOf(PropTypes.object),
   friend: PropTypes.shape({
     id: PropTypes.number.isRequired,
     // avatar: PropTypes.string,
@@ -20,4 +26,4 @@ FriendList.propTypes = {
   }),
 };
 
-export default FriendList
+export default FriendList;
