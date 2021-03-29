@@ -10,7 +10,6 @@
 .item {
   background-color: rgb(217, 219, 223);
   display: flex;
-  justify-content: start;
   align-items: center;
   border: 2px solid rgb(211, 216, 221);
   border-radius: 4px;

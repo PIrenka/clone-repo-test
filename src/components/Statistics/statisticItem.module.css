@@ -8,10 +8,13 @@
 
 .label {
   margin-bottom: 5px;
+  color: rgb(107, 109, 109);
+  font-weight: 500;
+  /* color: rgb(143, 155, 155); */
 }
 
 .percentage {
-  color: rgb(143, 155, 155);
+  color: white;
   font-size: 18px;
   font-weight: 500;
 }

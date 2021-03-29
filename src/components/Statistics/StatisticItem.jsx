@@ -6,9 +6,8 @@ import randomBgrColor from './getRandomBgrColor';
 const StatisticItem = ({ stat }) => (
   <li
     className={Styles.item}
-    key={randomBgrColor}
     style={{
-      backgroundColor: randomBgrColor,
+      backgroundColor: randomBgrColor(),
     }}
   >
     <span className={Styles.label}>{stat.label}</span>
