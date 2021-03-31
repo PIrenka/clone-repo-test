@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-01-components",
+  "name": "CHANGE_THIS_NAME",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pirenka.github.io/goit-react-hw-01-components",
+  "homepage": "https://pirenka.github.io/CHANGE_THIS_PATH",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
